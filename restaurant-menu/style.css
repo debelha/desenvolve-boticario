@@ -1,0 +1,56 @@
+body{
+    /* background-image: url('./download.jpg'); */
+    background-size: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header li{
+    padding: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header li:hover{
+    text-decoration: underline;
+}
+
+#titulo-da-pagina{
+    font-family: "Caveat", cursive;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    color: white;
+    border: none;
+}
+
+.botao-compra {
+    background-color: chocolate;
+}
+
+.botao-venda {
+    background-color: darkgrey;
+}
