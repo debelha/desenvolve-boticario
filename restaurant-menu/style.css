@@ -1,31 +1,43 @@
-body{
-    /* background-image: url('./download.jpg'); */
-    background-size: 100%;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin: 40px;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    margin: 30px;
+ul {
+  list-style: none;        
+  display: flex;           
+  gap: 20px;               
 }
 
-header ul{
-    display: flex;
-    list-style: none;
+li {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-header li{
-    padding: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+#page-title {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-header li:hover{
-    text-decoration: underline;
+.thin {
+  font-weight: 400;
+  color: orange;
 }
 
-#titulo-da-pagina{
-    font-family: "Caveat", cursive;
+.bold {
+  font-weight: 500;
+  color: chocolate;
 }
+
+
+
+
+
+
 
 section{
     display: flex;
