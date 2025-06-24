@@ -90,16 +90,18 @@ li {
     color: white;
     border: none;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .book-button {
     background-color: darkgrey;
     padding: 10px 20px;
     border-radius: 20px;
-    width: 130px;
+    width: 140px;
     color: white;
     border: none;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .image-content {
