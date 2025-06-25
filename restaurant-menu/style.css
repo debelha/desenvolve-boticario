@@ -68,7 +68,7 @@ li {
   font-style: normal;
 }
 
-.text-content {
+.highlight-text {
   display: flex;
   flex-direction: column; 
   flex: 1;
@@ -104,12 +104,22 @@ li {
     font-weight: 600;
 }
 
-.image-content {
+.highlight-image {
   flex: 1;
   max-width: 400px;
 }
 
-.image-content img {
+.highlight-image img {
   width: 100%;
   height: auto;
+}
+
+.plate {
+  display: inline;
+  display: inline-block;
+}
+
+.plates-list {
+    flex-direction: column;
+    flex-direction: row;
 }
