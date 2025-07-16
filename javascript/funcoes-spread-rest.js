@@ -51,5 +51,5 @@ const endereco = {
 
 const usuarioComEndereco = {
     ...usuario,
-    ...endereco,
+    ...endereco
 };
