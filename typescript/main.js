@@ -1,13 +1,11 @@
-var userName = "Carlos";
-var userAge = 30;
-function welcomeUser(userName, age) {
-    if (age === undefined) {
-        console.log("Age is required.");
+var meuDog = {
+    nome: 'Pingo',
+    qtdPatas: 4,
+    raca: 'Caramelo',
+    latir: function () {
+        console.log('Au Au!');
+        return 'Au Au!';
     }
-    else {
-        console.log("Welcome ".concat(userName, ", you are ").concat(age, " years old."));
-        return true;
-    }
-    console.log('teste');
-}
-welcomeUser('Carlos', 30);
+};
+var latido = meuDog.latir();
+console.log("O cachorro ".concat(meuDog.nome, " da ra\u00E7a ").concat(meuDog.raca, " latiu: ").concat(latido));
