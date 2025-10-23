@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    padding: 25px;
+}
+
+header li:hover{
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+button {
+   padding: 10px;
+   border-radius: 20px;
+   width: 100px;
+   color: white;
+   border: none;
+}
+
+#menu-button {
+    background-color: chocolate
+}
+
+#book-button {
+    background-color: grey;
+}
