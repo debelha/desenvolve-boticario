@@ -19,8 +19,14 @@ header li:hover{
 
 section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 25px;
+}
+
+.main-dish {
+    width: 50%;
+    height: auto;
+    max-width: 600px; 
 }
 
 button {
@@ -38,3 +44,9 @@ button {
 #book-button {
     background-color: grey;
 }
+
+.dish {
+    background-color: antiquewhite;
+}
+
+
