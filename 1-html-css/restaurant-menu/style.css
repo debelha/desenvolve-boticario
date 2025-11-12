@@ -46,7 +46,22 @@ button {
 }
 
 .dish {
-    background-color: antiquewhite;
+    display: inline-block;
+    background-color:oldlace;
+    width: 200px;
 }
 
+.dish img {
+    width: 100px;
+}
 
+.dishes-list {
+    display: flex;
+    justify-content: center;
+}
+
+.dish {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
