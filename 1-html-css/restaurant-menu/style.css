@@ -17,7 +17,7 @@ header li:hover{
     text-decoration: underline;
 }
 
-section {
+.lp-section {
     display: flex;
     justify-content: space-between;
     margin: 25px;
@@ -64,4 +64,16 @@ button {
     display: flex;
     justify-content: center;
     margin: 10px;
+}
+
+form {
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
 }
