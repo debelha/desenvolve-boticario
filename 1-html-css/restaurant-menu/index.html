@@ -8,36 +8,32 @@
 </head>
 <body>
     <header>
-    <h1>FOODEAT</h1>
-    <ul>
-        <li>
-            Home
-        </li>
-        <li>
-            Menu
-        </li>
-        <li>
-            About
-        </li>
-    </ul>   
+        <h1>FOODEAT</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><img src="./img/icon.jpg" alt="User icon" class="user-icon"></li>
+            </ul>
+         </nav>
     </header>
-    <section class="lp-section">
+    <main class="main-container">
+        <section class="lp-section">
         <div>
-            <h1>Delicious food is waiting for you</h1>
+            <h2>Delicious food is waiting for you</h2>
             <p>Our team of registered nurses and skilled healthcare professionals provide in home nursing</p>
             <div class="buttons">
-                <button id="menu-button">Food Menu</button>
-                <button id="book-button">
-                   <a href="./form.html">Book a Table</a>
-                </button>
+                <button id="menu-button"><a id="menu-text" href="#">Food Menu</a></button>
+                <button id="book-button"><a id="book-text" href="./form.html">Book a Table</a></button>
             </div>     
         </div>
         <div>
         <img src="./img/dish.png" alt="Dish" class="main-dish">
     </div>
     </section>
-
-    <div class="dishes-list">
+    <section class="top-list">
+        <div class="dishes-list">
         <div class="dish">
             <img src="./img/dish1.png" alt="">
         </div>
@@ -48,5 +44,7 @@
             <img src="./img/dish3.png" alt="">
         </div>
     </div>
+    </section>  
+    </main>
 </body>
 </html>

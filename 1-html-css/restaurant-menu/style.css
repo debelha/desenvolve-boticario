@@ -17,6 +17,12 @@ header li:hover{
     text-decoration: underline;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+
 .lp-section {
     display: flex;
     justify-content: space-between;
@@ -38,11 +44,21 @@ button {
 }
 
 #menu-button {
-    background-color: chocolate
+    background-color: chocolate;
 }
 
 #book-button {
-    background-color: grey;
+    background-color: gray;
+}
+
+#menu-text {
+    text-decoration: none;
+    color: white;
+}
+
+#book-text {
+    text-decoration: none;
+    color: white;
 }
 
 .dish {
@@ -76,4 +92,14 @@ form {
   display: flex;
   justify-content: center; 
   align-items: center;    
+}
+
+.user-icon {
+  width: 25px;          
+  height: 25px;
+  margin-left: 8px;      
+  vertical-align: middle;
+  display: inline-block;
+  object-fit: contain;
+  border-radius: 50%;
 }
