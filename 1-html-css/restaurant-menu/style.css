@@ -23,16 +23,30 @@ nav ul li a {
     font-weight: 500;
 }
 
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .lp-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
     margin: 25px;
 }
 
+.lp-section > div:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .main-dish {
-    width: 50%;
+    width: 100%;
     height: auto;
-    max-width: 600px; 
+    max-width: 300px; 
 }
 
 button {
