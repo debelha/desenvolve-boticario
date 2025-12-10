@@ -1,6 +1,15 @@
+/* ====== BASIC RESET ====== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== HEADER ====== */
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 30px;
 }
 
@@ -10,10 +19,10 @@ header ul {
 }
 
 header li {
-    padding: 25px;
+    padding: 20px;
 }
 
-header li:hover{
+header li:hover {
     text-decoration: underline;
 }
 
@@ -23,17 +32,20 @@ nav ul li a {
     font-weight: 500;
 }
 
+/* ====== MAIN LAYOUT ====== */
 .main-container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px; 
 }
 
+/* ====== LANDING SECTION ====== */
 .lp-section {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin: 25px;
+    margin: 40px 0;
 }
 
 .lp-section > div:last-child {
@@ -42,19 +54,33 @@ nav ul li a {
     align-items: center;
 }
 
+.lp-section h2 {
+    margin-bottom: 10px;
+}
+
+.lp-section p {
+    margin-bottom: 10px; 
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
 
 .main-dish {
     width: 100%;
+    max-width: 300px;
     height: auto;
-    max-width: 300px; 
 }
 
+/* ====== BUTTONS ====== */
 button {
-   padding: 10px;
-   border-radius: 20px;
-   width: 100px;
-   color: white;
-   border: none;
+    padding: 10px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
 }
 
 #menu-button {
@@ -65,55 +91,74 @@ button {
     background-color: gray;
 }
 
-#menu-text {
-    text-decoration: none;
-    color: white;
-}
-
+#menu-text,
 #book-text {
     text-decoration: none;
     color: white;
 }
 
-.dish {
-    display: inline-block;
-    background-color:oldlace;
-    width: 200px;
+/* ====== TOP DISHES LIST ====== */
+.top-list {
+    display: flex;         
+    flex-direction: column; 
+    align-items: center;   
 }
 
-.dish img {
-    width: 100px;
+.top-list-text h2 {
+    margin-left: 20px;
 }
 
 .dishes-list {
     display: flex;
     justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
 }
 
 .dish {
+    position: relative;
     display: flex;
-    justify-content: center;
-    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    background-color: oldlace;
+    width: 200px;
+    height: 230px; 
+    padding: 20px 15px; 
+    border-radius: 10px;
 }
 
+.dish img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.dish p {
+    position: absolute;
+    bottom: 10px;   
+    right: 10px;    
+    margin: 0;
+    font-weight: 600;
+}
+
+/* ====== FORM ====== */
 form {
-  display:flex;
-  flex-direction: column;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .form-section {
-  display: flex;
-  justify-content: center; 
-  align-items: center;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .user-icon {
-  width: 25px;          
-  height: 25px;
-  margin-left: 8px;      
-  vertical-align: middle;
-  display: inline-block;
-  object-fit: contain;
-  border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-left: 8px;
+    object-fit: cover;
+    border-radius: 50%;
 }
