@@ -7,5 +7,4 @@ This repository contains tasks related to the 'Desenvolve' program organized by 
 <br>
 <br>
 ### Projects demo
-1- Restaurant menu (HTML, CSS): https://debelha.github.io/restaurant-menu/ 
-
+1- Restaurant menu (HTML, CSS): <a href="https://debelha.github.io/restaurant-menu/" target="_blank">https://debelha.github.io/restaurant-menu/</a>
