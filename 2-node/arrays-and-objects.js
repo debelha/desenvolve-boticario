@@ -14,3 +14,11 @@ const referenciaBancaria = {
 };
 
 console.log(referenciaBancaria.banco);
+
+//map
+const doubleValue = (value) => value * 2;
+
+let age = [10, 20, 34, 55, 25, 18, 12];
+let doubleAge = age.map(doubleValue);
+console.log(age);
+console.log(doubleAge);
